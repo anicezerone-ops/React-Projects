@@ -1,0 +1,42 @@
+.todoform {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.modernInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    font-size: 16px;
+}
+.modernInput:focus {
+    outline: none;
+    /* border-bottom: 2px solid #f7ca18; */
+}
+.modernButton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    background-color: #f7ca18;
+}
+.inputContainer {
+    display: flex;
+    gap: 10px;
+}

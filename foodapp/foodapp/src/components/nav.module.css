@@ -1,0 +1,11 @@
+.nav {
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Arial', helvetica, sans-serif;
+    /* background-color: #393e46;   */
+    color: #393e46;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+
+}
