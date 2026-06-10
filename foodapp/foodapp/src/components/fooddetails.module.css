@@ -1,3 +1,174 @@
-.detailsContainer {
-  width: 100%;
+.details {
+    max-width: 600px;
+    margin: 20px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393e46;
+}
+
+.loading,
+.error {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393e46;
+}
+
+.error {
+    color: #c0392b;
+}
+
+.heroImage {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin: 0 0 12px;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.badge {
+    background-color: #e8f8f2;
+    color: #29bb89;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.badgeNeutral {
+    background-color: #f0f0f0;
+    color: #393e46;
+}
+
+.metaGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.metaItem {
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.metaLabel {
+    display: block;
+    font-size: 0.75em;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+.metaValue {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.section {
+    margin-bottom: 24px;
+}
+
+.sectionTitle {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #29bb89;
+}
+
+.tagList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tag {
+    background-color: #393e46;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.85em;
+}
+
+.summary {
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+.summary a {
+    color: #29bb89;
+}
+
+.ingredientList,
+.stepList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredientItem {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95em;
+}
+
+.ingredientItem:last-child {
+    border-bottom: none;
+}
+
+.stepItem {
+    display: flex;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.stepItem:last-child {
+    border-bottom: none;
+}
+
+.stepNumber {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    background-color: #29bb89;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.85em;
+}
+
+.stepText {
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.sourceLink {
+    color: #29bb89;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sourceLink:hover {
+    text-decoration: underline;
 }

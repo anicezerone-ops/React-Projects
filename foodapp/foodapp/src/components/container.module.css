@@ -1,6 +1,3 @@
-.parentContainer {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  
+.parentcontainer{
+    display: flex;
 }
