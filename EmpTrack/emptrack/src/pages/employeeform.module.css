@@ -1,0 +1,67 @@
+.formContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.formCard {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.formCardBody {
+  padding: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.formRow {
+  row-gap: 0.25rem;
+}
+
+.formActions {
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.submitButton,
+.cancelButton {
+  min-width: 140px;
+}
+
+.formCard :global(.form-control),
+.formCard :global(.form-select) {
+  border-color: #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.formCard :global(.form-control:focus),
+.formCard :global(.form-select:focus) {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.15);
+}
+
+@media (max-width: 768px) {
+  .formCardBody {
+    padding: 1.25rem 1rem;
+  }
+
+  .submitButton,
+  .cancelButton {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media (min-width: 769px) {
+  .formCardBody {
+    padding: 2rem;
+  }
+}

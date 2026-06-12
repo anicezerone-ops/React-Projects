@@ -1,0 +1,343 @@
+/* Page Wrapper */
+.pageWrapper {
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #93c5fd 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .pageWrapper {
+    padding: 1.5rem 0.5rem;
+  }
+}
+
+/* Carousel Section */
+.carouselSection {
+  padding: 1rem 0.5rem;
+}
+
+.carouselWrapper {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.testimonialSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  min-height: 300px;
+}
+
+.testimonialContent {
+  text-align: center;
+}
+
+.testimonialText {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .testimonialText {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonialText {
+    font-size: 1.25rem;
+  }
+}
+
+.testimonialName {
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonialRole {
+  color: #dbeafe;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  border-radius: 1.5rem;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 25px 75px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 576px) {
+  .card {
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2rem 2rem;
+    border-radius: 1.875rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    margin-left: 1rem;
+    min-height: fit-content;
+  }
+}
+
+/* Card Header */
+.cardHeader {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .cardHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.subtitle {
+  color: #4b5563;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .form {
+    gap: 1.25rem;
+  }
+}
+
+/* Form Group */
+.formGroup {
+  width: 100%;
+}
+
+/* Label */
+.label {
+  display: block;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .label {
+    font-size: 1rem;
+  }
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  border: 2px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+  color: #1f2937;
+  transition: all 0.2s ease;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+@media (min-width: 640px) {
+  .input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .input {
+    padding: 0.875rem 1rem;
+    border-radius: 0.875rem;
+  }
+}
+
+/* Error Message */
+.error {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  background-color: #fef2f2;
+  border-left: 4px solid #dc2626;
+  color: #7f1d1d;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .error {
+    padding: 0.875rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 0.625rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+  box-shadow: 0 20px 50px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+}
+
+.button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  background-color: #9ca3af;
+  color: #6b7280;
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+@media (min-width: 640px) {
+  .button {
+    padding: 0.75rem 1rem;
+    font-size: 1.125rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0.875rem 1rem;
+    border-radius: 0.875rem;
+  }
+}
+
+/* Footer */
+.footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+}
+
+/* Slick Slider Custom Styles */
+:global(.slick-dots) {
+  bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  :global(.slick-dots) {
+    bottom: 0.5rem;
+  }
+}
+
+:global(.slick-dots li button:before) {
+  background-color: white;
+  font-size: 8px;
+}
+
+:global(.slick-dots li.slick-active button:before) {
+  background-color: #60a5fa;
+  opacity: 1;
+}
+
+:global(.slick-dots li button) {
+  padding: 0.25rem;
+}
+
+
